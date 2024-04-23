@@ -6,11 +6,9 @@ export default {
 </script>
 
 <template>
-    <ul>
-        <li class="d-flex align-items-center" >
-            <a class="px-6" href="#">{{ cardInfo.text }}</a>
-        </li>
-    </ul>
+    <li class="d-flex align-items-center px-3">
+        <a href="#">{{ cardInfo.text }}</a>
+    </li>
 </template>
 
 <style scoped lang="scss">
