@@ -10,6 +10,16 @@ export default {
 
 <template>
     <Hero></Hero>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="" alt="">
+                </div>
+                <div class="col-7"></div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped lang="scss">

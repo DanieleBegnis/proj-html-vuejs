@@ -13,7 +13,9 @@ export default {
                     <p>Lorem ipsum dolor sit amet cons.sit amet conssit amet cons</p>
                     <div class="d-flex">
                         <button type="button" class="btn ms-btn-primary rounded-pill">Get in Touch!</button>
-                        <i class="fa-brands fa-telegram"></i>
+                        <div class="image">
+                            <img src="../assets/img/play.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -39,10 +41,16 @@ export default {
             background-color: #173b67;
         }
 }
-.fa-telegram {
-    color: #72cff8;
-    font-size: 40px;
-    padding-left: 12px;
+.image {
+    background-color: #72cff8;
+    height: 40px;
+    margin-left: 12px;
+    border-radius: 10px;
+    img {
+        width: 100%;
+        height: 100%;
+        padding: 4px;
+    }
 }
 .col-3 {
     padding-top: 80px;
