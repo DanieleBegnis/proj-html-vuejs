@@ -73,7 +73,7 @@ export default {
                     For Your Best Friends.</h3>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-evenly">
                 <MainCards v-for="card in cards" :cardInfo="card"></MainCards>
             </div>
         </div>
