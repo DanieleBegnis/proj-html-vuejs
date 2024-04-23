@@ -70,11 +70,20 @@ export default {
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <h3>DogMilo Pet Care Services <br>
-                    For Your Best Friends.</h3>
+                        For Your Best Friends.</h3>
                 </div>
             </div>
             <div class="row justify-content-evenly">
                 <MainCards v-for="card in cards" :cardInfo="card"></MainCards>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <!-- immagine fa venire scrollbar perchè non dentro container, immagine di reference non è nel container -->
+        <img src="../assets/img/why.png" alt="">
+        <div>
+            <div class="row">
+
             </div>
         </div>
     </section>
@@ -97,14 +106,24 @@ export default {
             vertical-align: middle;
         }
     }
+
     .subtitle {
         color: $brand-secondary;
     }
 }
+
 .services {
     background-color: #f5f5f5;
+    background-image: url('src/assets/img/dog-left.png');
+    background-image: url('src/assets/img/dog-logo.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
+
     p {
         color: $brand-secondary;
     }
 }
+
+.choose {}
 </style>
