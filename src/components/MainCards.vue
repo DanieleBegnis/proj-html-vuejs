@@ -27,6 +27,10 @@ export default {
     text-align: center;
     flex-direction: column;
 
+    &:hover {
+        background-color: $brand-secondary;
+    }
+
     .card-image {
         height: 70px;
 
@@ -39,6 +43,7 @@ export default {
         background-color: #ffcc01;
         width: 50px;
         height: 50px;
+
         img {
             height: 100%;
         }
