@@ -38,6 +38,7 @@ export default {
 
 <template>
     <Hero></Hero>
+    <!-- about section -->
     <section class="about">
         <div class="container">
             <div class="row">
@@ -60,6 +61,7 @@ export default {
             </div>
         </div>
     </section>
+    <!-- services section -->
     <section class="services">
         <div class="container">
             <div class="row">
@@ -78,43 +80,46 @@ export default {
             </div>
         </div>
     </section>
+    <!-- choose section -->
     <section class="choose d-flex">
         <img src="../assets/img/why.png" alt="">
-        <div class="container justify-content-end">
-            <div class="row">
+        <div class="container">
+            <div class="row justify-content-end">
                 <div class="d-flex">
                     <img src="../assets/img/dog-icon.png" alt="">
                     <p class="ms-color-secondary">choose Us</p>
                 </div>
                 <h3>Why Choose US?</h3>
-                <section class="info">
-                    <div class="d-flex paragraph">
-                        <img src="../assets/img/w-3.png" alt="">
-                        <div>
-                            <h5>Safety first</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
-                                exercitationem nostrum reiciendis praesentium quam officia</p>
-                        </div>
+                <div class="d-flex paragraph">
+                    <img src="../assets/img/w-3.png" alt="">
+                    <div>
+                        <h5>Safety first</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
+                            exercitationem nostrum reiciendis praesentium quam officia</p>
                     </div>
-                    <div class="d-flex paragraph w-75">
-                        <img src="../assets/img/w-2.png" alt="">
-                        <div>
-                            <h5>Play Yards</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
-                                exercitationem nostrum reiciendis praesentium quam officia</p>
-                        </div>
+                </div>
+                <div class="d-flex paragraph w-75">
+                    <img src="../assets/img/w-2.png" alt="">
+                    <div>
+                        <h5>Play Yards</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
+                            exercitationem nostrum reiciendis praesentium quam officia</p>
                     </div>
-                    <div class="d-flex paragraph w-50">
-                        <img src="../assets/img/w-1.png" alt="">
-                        <div>
-                            <h5>Monitor your Pets</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
-                                exercitationem nostrum reiciendis praesentium quam officia</p>
-                        </div>
+                </div>
+                <div class="d-flex paragraph w-50">
+                    <img src="../assets/img/w-1.png" alt="">
+                    <div>
+                        <h5>Monitor your Pets</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
+                            exercitationem nostrum reiciendis praesentium quam officia</p>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
+    </section>
+    <!-- review section -->
+    <section>
+
     </section>
 </template>
 
@@ -162,7 +167,5 @@ export default {
 
 }
 
-.ms-right {
-
-}
+.ms-right {}
 </style>
