@@ -1,11 +1,13 @@
 <script>
 import Hero from './Hero.vue';
 import MainCards from './MainCards.vue';
+import CommentCards from './CommentCards.vue';
 export default {
     name: 'AppMain',
     components: {
         Hero,
-        MainCards
+        MainCards,
+        CommentCards
     },
     data() {
         return {
@@ -29,6 +31,18 @@ export default {
                 {
                     image: 'src/assets/img/d-5.png',
                     title: 'nail Trimming'
+                }
+            ],
+            comments: [
+                {
+                    image: 'src/assets/img/t1.png',
+                    title: 'Great Place',
+                    name: 'Tobias May'
+                },
+                {
+                    image: 'src/assets/img/t1.png',
+                    title: 'Great Place',
+                    name: 'Tobias May'
                 }
             ]
         }
@@ -119,7 +133,28 @@ export default {
     </section>
     <!-- review section -->
     <section>
-
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-4">
+                    <div class="d-flex">
+                        <div class="card-image">
+                            <img src="../assets/img/dog-icon.png" alt="">
+                        </div>
+                        <p class="ms-color-secondary">Review & Rating</p>
+                    </div>
+                    <h4>Over 8000 Customers With 5-Stars reviews</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia animi, dolor modi placeat
+                        perferendis quibusdam deleniti eveniet nobis quis ipsa fuga! Amet distinctio voluptas minima
+                        labore officia? Maxime, sunt.</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <CommentCards v-for="comment in comments" :cardInfo="comment"></CommentCards>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -167,5 +202,13 @@ export default {
 
 }
 
-.ms-right {}
+.fa-star {
+    color: #fed404;
+}
+
+.col-4 {
+    .card-image {
+        width: 40px;
+    }
+}
 </style>
