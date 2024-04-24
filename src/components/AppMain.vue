@@ -155,7 +155,7 @@ export default {
                 <CommentCards v-for="comment in comments" :cardInfo="comment"></CommentCards>
             </div>
             <!-- next/ previous buttons -->
-            <div class="review-buttons d-flex">
+            <div class="review-buttons d-flex justify-content-end">
                 <div class="comment-button">
                     <img src="../assets/img/left-arrow.png" alt="">
                 </div>
@@ -164,6 +164,10 @@ export default {
                 </div>
             </div>
         </div>
+    </section>
+    <!-- newsletter section -->
+    <section>
+
     </section>
 </template>
 
@@ -223,5 +227,17 @@ export default {
 
 .comment-button {
     background-color: $brand-primary;
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+
+    &:hover {
+        background-color: $brand-secondary;
+    }
+
+    img {
+        width: 100%;
+        padding: 4px;
+    }
 }
 </style>

@@ -86,33 +86,42 @@ export default {
 .header-top {
     background-color: #7f7045;
     color: #fff;
+
     ul {
         padding-right: 90px;
     }
+
     .fa-solid {
         color: $brand-primary;
     }
+
     .fa-square-facebook {
         color: #343faa;
     }
+
     .fa-square-pinterest {
         color: #b4254a;
     }
+
     .fa-square-twitter {
         color: #90d6de;
     }
+
     .fa-linkedin {
         color: #075fcc;
     }
+
     .fa-square-instagram {
         color: #9c27a3;
     }
 }
+
 .ms-btn-primary {
     background-color: $brand-primary;
     color: #fff;
+
     &:hover {
-            background-color: #173b67;
-        }
+        background-color: #173b67;
+    }
 }
 </style>
