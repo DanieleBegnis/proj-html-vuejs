@@ -266,7 +266,7 @@ export default {
 
 .newsletter {
     background-color: $brand-primary;
-    width: 45%;
+    width: 60%;
     height: 200px;
     border-radius: 20px;
     position: absolute;
@@ -281,6 +281,7 @@ export default {
             height: 150%;
             position: absolute;
             top: -50%;
+            left: 7%;
         }
     }
 }
