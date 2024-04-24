@@ -67,7 +67,7 @@ export default {
 <template>
     <footer>
         <div class="container">
-            <div class="row justify-content-evenly py-5">
+            <div class="row justify-content-evenly ms-padding">
                 <div class="col-2">
                     <div class="py-2 fw-bold ms-title">Get in Touch</div>
                     <p>Have a question for us? We'll answer your problems here</p>
@@ -128,6 +128,9 @@ footer {
 
     .ms-title {
         color: $brand-primary
+    }
+    .ms-padding {
+        padding-top: 150px;
     }
 }
 
