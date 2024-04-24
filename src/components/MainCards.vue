@@ -33,6 +33,8 @@ export default {
 
     .card-image {
         height: 70px;
+        display: flex;
+        justify-content: center;
 
         img {
             height: 100%;
