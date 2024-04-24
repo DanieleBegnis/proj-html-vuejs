@@ -174,7 +174,7 @@ export default {
             <div class="newsletter d-flex justify-content-between">
                 <!-- input mail -->
                 <div class="news-image">
-                    <!-- <img src="../assets/img/news.png" alt=""> -->
+                    <img src="../assets/img/news.png" alt="">
                 </div>
                 <div>
                     <h3>Subscribe to our Newsletter</h3>
@@ -276,8 +276,11 @@ export default {
     color: #fff;
     .news-image {
         width: 50%;
-        image {
-            width: 100%;
+        position: relative;
+        img {
+            height: 150%;
+            position: absolute;
+            top: -50%;
         }
     }
 }
