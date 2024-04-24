@@ -64,7 +64,7 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
-                    <p class="my-4">Service</p>
+                    <p class="my-4 ms-color-secondary">Service</p>
                 </div>
             </div>
             <div class="row">
@@ -78,12 +78,41 @@ export default {
             </div>
         </div>
     </section>
-    <section class="choose">
-        <!-- immagine fa venire scrollbar perchè non dentro container, immagine di reference non è nel container -->
+    <section class="choose d-flex">
         <img src="../assets/img/why.png" alt="">
-        <div>
+        <div class="container justify-content-end">
             <div class="row">
-
+                <div class="d-flex">
+                    <img src="../assets/img/dog-icon.png" alt="">
+                    <p class="ms-color-secondary">choose Us</p>
+                </div>
+                <h3>Why Choose US?</h3>
+                <section class="info">
+                    <div class="d-flex paragraph">
+                        <img src="../assets/img/w-3.png" alt="">
+                        <div>
+                            <h5>Safety first</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
+                                exercitationem nostrum reiciendis praesentium quam officia</p>
+                        </div>
+                    </div>
+                    <div class="d-flex paragraph w-75">
+                        <img src="../assets/img/w-2.png" alt="">
+                        <div>
+                            <h5>Play Yards</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
+                                exercitationem nostrum reiciendis praesentium quam officia</p>
+                        </div>
+                    </div>
+                    <div class="d-flex paragraph w-50">
+                        <img src="../assets/img/w-1.png" alt="">
+                        <div>
+                            <h5>Monitor your Pets</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt nisi
+                                exercitationem nostrum reiciendis praesentium quam officia</p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
@@ -120,10 +149,20 @@ export default {
     background-size: 10%;
     background-position: right;
 
-    p {
-        color: $brand-secondary;
-    }
+
 }
 
-.choose {}
+.ms-color-secondary {
+    color: $brand-secondary;
+}
+
+.paragraph {
+
+    height: 150px;
+
+}
+
+.ms-right {
+
+}
 </style>
