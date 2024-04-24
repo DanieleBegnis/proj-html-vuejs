@@ -92,7 +92,7 @@ export default {
                             For Your Best Friends.</h3>
                     </div>
                 </div>
-                <div class="row justify-content-evenly">
+                <div class="row justify-content-evenly pb-4">
                     <MainCards v-for="card in cards" :cardInfo="card"></MainCards>
                 </div>
             </div>
@@ -101,7 +101,7 @@ export default {
         <section class="choose d-flex">
             <img src="../assets/img/why.png" alt="">
             <div class="container">
-                <div class="row justify-content-end">
+                <div class="row justify-content-end ms-2 mt-4">
                     <div class="d-flex">
                         <img src="../assets/img/dog-icon.png" alt="">
                         <p class="ms-color-secondary">choose Us</p>
