@@ -215,11 +215,11 @@ export default {
 
 .services {
     background-color: #f5f5f5;
-    background-image: url('src/assets/img/dog-left.png');
-    background-image: url('src/assets/img/dog-logo.png');
+    background-image: url('src/assets/img/dog-left.png'), url('src/assets/img/dog-logo.png');
+    background-position: left, right;
+    background-position-y: 40px;
     background-repeat: no-repeat;
     background-size: 10%;
-    background-position: right;
 
 
 }
@@ -291,14 +291,17 @@ export default {
             left: 7%;
         }
     }
+
     .input-field {
         background-color: #fff;
         width: 400px;
         padding-top: 8px;
         padding-bottom: 8px;
+
         input {
             width: 90%;
         }
+
         span {
             background-color: $brand-primary;
             font-size: 24px;
