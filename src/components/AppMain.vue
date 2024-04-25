@@ -63,7 +63,7 @@ export default {
                     <div class="col-7">
                         <div class="d-flex py-5">
                             <img src="../assets/img/dog-icon.png" alt="">
-                            <div class="subtitle">About Us</div>
+                            <div class="ms-2 mt-2">About Us</div>
                         </div>
                         <h3>Welcome DogMilo Pets</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt consectetur id,
@@ -104,7 +104,7 @@ export default {
                 <div class="row justify-content-end ms-2 mt-4">
                     <div class="d-flex">
                         <img src="../assets/img/dog-icon.png" alt="">
-                        <p class="ms-color-secondary">choose Us</p>
+                        <div class="ms-color-secondary ms-2 mt-2">choose Us</div>
                     </div>
                     <h3>Why Choose US?</h3>
                     <div class="d-flex paragraph">
@@ -240,7 +240,8 @@ export default {
 
 .col-3 {
     .card-image {
-        width: 40px;
+        width: 22px;
+        margin-right: 8px;
     }
 }
 

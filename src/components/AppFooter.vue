@@ -100,15 +100,15 @@ export default {
                 <div class="col-2">
                     <div class="py-2 fw-bold ms-title">Contact Me</div>
                     <div class="d-flex">
-                        <i class="fa-solid fa-paper-plane"></i>
+                        <i class="fa-solid fa-paper-plane pt-2 px-2"></i>
                         <p>Via Campiglio, 9, 38080 Carisolo TN</p>
                     </div>
                     <div class="d-flex">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-phone pt-2 px-2"></i>
                         <p>02 457 645 73</p>
                     </div>
                     <div class="d-flex">
-                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-envelope pt-2 px-2"></i>
                         <p>MaxPower@gmail.com</p>
                     </div>
                 </div>
