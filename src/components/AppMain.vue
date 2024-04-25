@@ -137,8 +137,8 @@ export default {
         <!-- review section -->
         <section>
             <div class="container">
-                <div class="row my-5">
-                    <div class="col-4">
+                <div class="row my-5 justify-content-evenly">
+                    <div class="col-3">
                         <div class="d-flex">
                             <div class="card-image">
                                 <img src="../assets/img/dog-icon.png" alt="">
@@ -238,7 +238,7 @@ export default {
     color: #fed404;
 }
 
-.col-4 {
+.col-3 {
     .card-image {
         width: 40px;
     }

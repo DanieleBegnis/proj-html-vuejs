@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-4 py-2">
+    <div class="col-3 py-2">
         <div>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -34,7 +34,7 @@ export default {
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 
-.col-4 {
+.col-3 {
     background-color: #f4f4f4;
 
 
