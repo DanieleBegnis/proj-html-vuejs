@@ -171,14 +171,17 @@ export default {
         </section>
         <!-- newsletter section -->
         <section class="newsletter-section">
-            <div class="newsletter d-flex justify-content-between">
+            <div class="newsletter d-flex">
                 <!-- input mail -->
                 <div class="news-image">
                     <img src="../assets/img/news.png" alt="">
                 </div>
-                <div>
-                    <h3>Subscribe to our Newsletter</h3>
-                    <input type="text">
+                <div class="my-5">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <div class="input-field mt-4">
+                        <input class="px-2 border border-0" type="text" placeholder="Your Email Here">
+                        <span class="p-2">@</span>
+                    </div>
                 </div>
 
             </div>
@@ -240,6 +243,7 @@ export default {
         width: 40px;
     }
 }
+
 .review-buttons {
     padding-bottom: 200px;
 }
@@ -274,14 +278,29 @@ export default {
     bottom: -100px;
     transform: translate(-50%);
     color: #fff;
+
     .news-image {
         width: 50%;
         position: relative;
+
         img {
             height: 150%;
             position: absolute;
             top: -50%;
             left: 7%;
+        }
+    }
+    .input-field {
+        background-color: #fff;
+        width: 400px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        input {
+            width: 90%;
+        }
+        span {
+            background-color: $brand-primary;
+            font-size: 24px;
         }
     }
 }
